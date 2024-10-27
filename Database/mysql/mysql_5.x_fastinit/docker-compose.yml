@@ -4,7 +4,7 @@ services:
     restart: always
     privileged: true
     image: mysql:5.7
-    container_name: uu9db
+    container_name: mysql57init
     volumes:
       - ./db/:/var/lib/mysql
       - ./conf/:/etc/mysql/conf.d
